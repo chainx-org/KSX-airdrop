@@ -7,8 +7,9 @@ snapshot1(`ss1`) on the block `2761158` of `ChainX2.0`,
 snapshot2(`ss2`) on the block `2004141` of `ChainX3.0`,
  
  ```txt
- if ss1 - ss2 >= 1 pcx and s2 != 0: 
-    genesis: 10% of ss2 is free, 90% of ss2 to vesting(from block 1296000, end block 3888000)
+ if ss1 - ss2 >= 1 pcx:
+    if ss2 != 0:
+        genesis: 10% of ss2 is free, 90% of ss2 to vesting(from block 1296000, end block 3888000)
     transfer: 100% of (ss1 - ss2) to vesting(from block 3888000, end block 9072000)
  else:
     genesis: 10% of ss1 is free, 90% of ss1 to vesting(from block 1296000, end block 3888000)
