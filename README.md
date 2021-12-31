@@ -20,7 +20,7 @@ snapshot2(`ss2`) on the block `2004141` of `ChainX3.0`,
 - the genesis balance file(decimal=18):
   - [genesis_balance_chainx](./genesis_balances_chainx_snapshot_7418_7868415220855310000000000.json)
 - the genesis vesting file(decimal=18):
-  - [genesis_vesting](./genesis_vesting_344011_903556297508011000000000.json)
+  - [genesis_vesting](./genesis_vesting_342138_894151599020746000000000.json)
 - the transfer vesting file(decimal=18):
   - [transfer_vesting](./transfer_vesting_1990_2631584779144690000000000.json)
 
@@ -33,7 +33,7 @@ genesis: 10% is free, 90% for vesting(from block 1296000, end block 3888000)
 - the genesis balance file(decimal=18):
   - [genesis_balance_comingchat](./genesis_balances_comingchat_miners_334721_2140742819000000000000000.json)
 - the genesis vesting file(decimal=18):
-  - [genesis_vesting](./genesis_vesting_344011_903556297508011000000000.json)
+  - [genesis_vesting](./genesis_vesting_342138_894151599020746000000000.json)
 
 ### (3) SherpaX contributors(on kusama)
 ```txt
